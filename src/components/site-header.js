@@ -22,11 +22,8 @@ import ColorButton from "@/components/ColorButton";
 
 const navLinks = [
   { href: "/home", label: "Home", icon: Compass },
-  { href: "/features", label: "Features", icon: Sparkles },
-  { href: "/communities", label: "Communities", icon: Users },
-  { href: "/struggle", label: "Struggle", icon: CircleHelp },
-  { href: "/live-classes", label: "Live Classes", icon: Video },
-  { href: "/how-it-works", label: "How It Works", icon: BookOpen },
+
+  
 ];
 
 const aboutLinks = [
@@ -54,8 +51,7 @@ export default function SiteHeader() {
             href="/home"
             className="inline-flex shrink-0 items-baseline  text-2xl leading-none font-extrabold tracking-[-0.04em] "
           >
-            <span className="text-white">Ready</span>
-            <span className="text-[#0B7BFF]">Me</span>
+            <span className="text-white">Velnorix</span>
           </Link>
 
           <nav className="hidden items-center gap-4 lg:flex lg:gap-4 xl:gap-8">
@@ -81,7 +77,7 @@ export default function SiteHeader() {
               );
             })}
 
-            <div className="group relative">
+            {/* <div className="group relative">
               <button
                 type="button"
                 className={`relative flex items-center gap-1 py-2.5 text-sm !font-normal whitespace-nowrap transition-colors duration-200 lg:text-base ${
@@ -124,7 +120,7 @@ export default function SiteHeader() {
                   );
                 })}
               </div>
-            </div>
+            </div> */}
           </nav>
 
           <div className="hidden shrink-0 items-center lg:flex">
@@ -232,7 +228,7 @@ export default function SiteHeader() {
                     );
                   })}
 
-                  <div className="pt-1">
+                  {/* <div className="pt-1">
                     <button
                       type="button"
                       onClick={() => setAboutOpen((value) => !value)}
@@ -300,7 +296,7 @@ export default function SiteHeader() {
                         })}
                       </div>
                     )}
-                  </div>
+                  </div> */}
                 </nav>
 
                 <div className="mt-5 overflow-hidden rounded-[28px] border border-[#24467a] bg-[radial-gradient(circle_at_top_left,rgba(15,88,199,0.3),transparent_34%),linear-gradient(180deg,rgba(12,24,50,0.98),rgba(7,14,29,0.98))]">
