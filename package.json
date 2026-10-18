@@ -1,7 +1,7 @@
 {
-  "name": "ready-me-website",
+  "name": "velnorix-website",
   "version": "1.0.0",
-  "description": "Responsive Ready Me website built with Next.js and Tailwind CSS",
+  "description": "Responsive Velnorix website built with Next.js and Tailwind CSS",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

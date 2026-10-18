@@ -157,10 +157,10 @@ export default function SiteHeader() {
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#6ea8ff]">
-                      ReadyMe Menu
+                      Velnorix Menu
                     </p>
                     <p className="mt-2 text-xl font-semibold tracking-[-0.05em] text-white">
-                      Explore ReadyMe
+                      Explore Velnorix
                     </p>
                     <p className="mt-1 max-w-[260px] text-sm leading-6 text-white/58">
                       A premium learning space for focused students.
@@ -305,7 +305,7 @@ export default function SiteHeader() {
                       Early Access
                     </p>
                     <p className="mt-2 text-lg font-semibold tracking-[-0.04em] text-white">
-                      Pre-register with ReadyMe
+                      Pre-register with Velnorix
                     </p>
                     <p className="mt-1 max-w-[240px] text-sm leading-6 text-white/58">
                       Join early and unlock the launch offer with the full learning experience.

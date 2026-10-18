@@ -3,8 +3,8 @@ import "./globals.css";
 import ThemeProvider from "@/components/theme-provider";
 import ToastProvider from "@/components/ToastProvider";
 export const metadata = {
-  title: "Ready Me Website",
-  description: "Responsive Ready Me website built from the existing app flow.",
+  title: "Velnorix Website",
+  description: "Responsive Velnorix website built from the existing app flow.",
 };
 
 export default function RootLayout({ children }) {

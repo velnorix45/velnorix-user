@@ -104,7 +104,7 @@ export const useStudentFormStore = create(
         })),
     }),
     {
-      name: "readyme-student-form",
+      name: "velnorix-form",
       storage: createJSONStorage(() => sessionStorage),
       partialize: (state) => ({
         currentStep: state.currentStep,

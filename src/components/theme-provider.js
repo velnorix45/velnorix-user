@@ -11,7 +11,7 @@ const ThemeContext = createContext({
 export default function ThemeProvider({ children }) {
   useEffect(() => {
     document.documentElement.dataset.theme = "dark";
-    window.localStorage.setItem("readyme-theme", "dark");
+    window.localStorage.setItem("velnorix-theme", "dark");
   }, []);
 
   return (
