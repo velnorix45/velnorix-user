@@ -1,0 +1,39 @@
+{
+  "name": "ready-me-website",
+  "version": "1.0.0",
+  "description": "Responsive Ready Me website built with Next.js and Tailwind CSS",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@floating-ui/react": "^0.27.20",
+    "@headlessui/react": "^2.2.10",
+    "@supabase/ssr": "^0.12.3",
+    "@supabase/supabase-js": "^2.110.6",
+    "autoprefixer": "^10.5.2",
+    "axios": "^1.18.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^1.23.0",
+    "next": "^16.2.10",
+    "postcss": "^8.5.16",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-icons": "^5.7.0",
+    "react-toastify": "^11.1.0",
+    "rizzui": "^2.1.0",
+    "sweetalert2": "^11.26.25",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/postcss": "^4.3.2",
+    "tailwindcss": "^4.3.2"
+  }
+}
