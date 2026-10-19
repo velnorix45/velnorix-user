@@ -5,14 +5,14 @@ import { AmbientMotion, PageTransition } from "@/components/motion-system";
 
 export default function AppFrame({ children }) {
   return (
-    <section className="relative overflow-hidden bg-black text-white">
+    <section className="relative bg-black text-white">
       <AmbientMotion />
 
       <div className="w-full">
         <SiteHeader />
 
         <main
-          className="relative bg-cover bg-center bg-no-repeat px-4 py-5"
+          className="relative bg-cover min-h-screen bg-center bg-no-repeat px-4 py-5"
           style={{
             backgroundImage: "url('/background.png')",
           }}
