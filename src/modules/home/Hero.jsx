@@ -1,24 +1,14 @@
 import React from 'react'
 import Link from "next/link";
 import { ArrowRight , Globe2  } from "lucide-react";
+import Image from 'next/image';
 const Hero = () => {
   return (
    <>
-     <section
-      className="relative isolate overflow-hidden bg-[#020916] text-white"
-      style={{
-        backgroundImage:
-          "linear-gradient(90deg, rgba(2,9,22,0.98) 0%, rgba(2,9,22,0.88) 32%, rgba(2,9,22,0.18) 70%, rgba(2,9,22,0.12) 100%), url('/images/hero-building.webp')",
-        backgroundPosition: "center, center 44%",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      {/* Ambient glow */}
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_52%_45%,rgba(0,112,255,0.17),transparent_46%)]" />
-
-      <div className="relative mx-auto min-h-[480px] max-w-[1500px] px-5 pb-10 pt-10 sm:px-8 sm:pt-14 lg:flex lg:min-h-[450px] lg:items-center lg:px-12 lg:py-12 xl:px-16">
-        <div className="max-w-[570px]">
+    
+      <div className="relative lg:flex lg:items-center">
+        {/* left side  */}
+        <div className="w-1/2">
           <p className="mb-3 text-[10px] font-semibold uppercase tracking-[0.38em] text-white/90 sm:text-xs">
             Investment Platform
           </p>
@@ -36,17 +26,17 @@ const Hero = () => {
             a commitment to your financial future.
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-3 sm:gap-5">
+          <div className="mt-6 flex flex-wrap gap-3 sm:gap-5 ">
             <Link
-              href="/investment-plans"
-              className="inline-flex min-h-12 items-center justify-center gap-3 rounded-xl bg-gradient-to-b from-[#FFE5A0] to-[#F1B84F] px-5 py-3 text-sm font-bold text-[#10131A] shadow-[0_5px_24px_rgba(255,193,75,0.16)] transition hover:brightness-110 sm:min-w-[207px] sm:px-7"
+              href="/"
+              className="inline-flex min-h-12 items-center justify-center gap-3 rounded-xl bg-gradient-to-b from-[#FFE5A0] to-[#F1B84F] px-5 py-3 text-sm font-bold !text-[#10131A] shadow-[0_5px_24px_rgba(255,193,75,0.16)] transition hover:brightness-110 sm:min-w-[207px] sm:px-7"
             >
               Start Investing
               <ArrowRight size={18} />
             </Link>
 
             <Link
-              href="/about-company"
+              href="/"
               className="inline-flex min-h-12 items-center justify-center rounded-xl border border-[#D89C43] bg-[#031020]/75 px-6 py-3 text-sm font-medium text-white transition hover:bg-[#10233A] sm:min-w-[160px]"
             >
               Learn More
@@ -54,8 +44,20 @@ const Hero = () => {
           </div>
         </div>
 
+        {/* right side */}
+        <div className="flex items-center justify-end w-1/2">
+        
+              <Image
+              src="/landing page hero.png"
+              alt="Hero Image"
+              className='h-[400px] w-full'
+              width={900}
+              height={900}
+              />
+            
+
         {/* Trust badge */}
-        <div className="mt-8 flex w-fit items-center gap-4 rounded-2xl border border-[#D5A64D]/40 bg-[#030B18]/85 px-4 py-3 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:px-5 lg:absolute lg:bottom-7 lg:right-12 lg:mt-0 xl:right-16">
+        <div className="mt-8 flex w-fit items-center gap-4 rounded-2xl border border-[#D5A64D]/40 bg-[#030B18]/85 px-4 py-3 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:px-5 lg:absolute lg:bottom-0 lg:right-5 lg:mt-0 xl:right-5">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-[#D8A94E]/40 bg-[#E7B650]/10 text-[#FFD477]">
             <Globe2 size={31} strokeWidth={1.7} />
           </div>
@@ -70,8 +72,10 @@ const Hero = () => {
             </p>
           </div>
         </div>
+        </div>
+
       </div>
-    </section>
+
    </>
   )
 }
