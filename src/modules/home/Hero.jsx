@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* right side */}
+        {/* right side */} 
         <div className="flex flex-col md:flex-row items-center justify-end w-full lg:w-1/2">
         
               <Image
