@@ -17,7 +17,7 @@ const index = () => {
       <Hero/>
       <Features/>
       <Plans/>
-      <Future/>
+      {/* <Future/> */}
 
     </div>
   );
