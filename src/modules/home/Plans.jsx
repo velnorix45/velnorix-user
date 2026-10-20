@@ -128,7 +128,7 @@ const Plans = () => {
                 href={`/`}
                 className={`mt-2 sm:mt-5 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl border px-4 py-2.5 text-sm font-semibold transition hover:brightness-110 ${
                   plan.popular
-                    ? "border-transparent bg-gradient-to-b from-[#FFE5A0] to-[#F0B847] text-[#10131A] shadow-[0_5px_20px_rgba(246,187,73,0.13)]"
+                    ? "border-transparent bg-gradient-to-b from-[#FFE5A0] to-[#F0B847] !text-[#10131A] shadow-[0_5px_20px_rgba(246,187,73,0.13)]"
                     : "border-[#A77939] bg-[#031020]/70 text-white hover:bg-[#102238]"
                 }`}
               >
