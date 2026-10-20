@@ -33,7 +33,7 @@ const features = [
 const Features = () => {
   return (
     <>
-      <div className="grid grid-cols-2 md:grid-cols-4 overflow-hidden rounded-2xl border border-[#23364F] bg-[#020B18]">
+      <div className="grid grid-cols-2 md:grid-cols-4 overflow-hidden rounded-2xl border border-[#23364F] bg-navyDark">
         {features?.map((feature, index) => {
           const Icon = feature?.icon;
 

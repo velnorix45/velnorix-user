@@ -15,6 +15,7 @@ module.exports = {
         black: "#010103",
         textWhiteLight: "#FFFFFF99",
         goldenDark: "#FFD477",
+        navyDark: "#020B18",
       },
     },
   },
