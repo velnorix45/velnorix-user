@@ -5,10 +5,10 @@ const Future = () => {
   return (
    <>
      <section
-      className="relative isolate overflow-hidden border-y border-white/10 bg-[#020916] text-white"
+      className="relative isolate overflow-hidden border-y border-white/10 bg-[#020916] text-white rounded-2xl"
       style={{
         backgroundImage:
-          "linear-gradient(90deg, rgba(2,9,22,0.86), rgba(2,9,22,0.2) 55%, rgba(2,9,22,0.65)), url('/images/mountain-background.webp')",
+          "linear-gradient(90deg, rgba(2,9,22,0.86), rgba(2,9,22,0.2) 55%, rgba(2,9,22,0.65)), url('/Mountain.webp')",
         backgroundPosition: "center 52%",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -18,18 +18,18 @@ const Future = () => {
 
       <div className="mx-auto flex max-w-[1500px] flex-col gap-7 px-5 py-7 sm:px-8 sm:py-9 md:flex-row md:items-center md:justify-between lg:px-12 lg:py-5 xl:px-14">
         <div className="max-w-[570px]">
-          <h2 className="text-2xl font-semibold tracking-tight sm:text-[27px]">
+          <h2 className="text-base sm:text-[27px] font-semibold tracking-tight ">
             Built for a Stronger Financial Future
           </h2>
 
-          <p className="mt-1.5 max-w-[460px] text-sm leading-6 text-slate-200">
+          <p className="mt-1.5 max-w-[460px] text-xs sm:text-sm leading-6 text-slate-200">
             At Velnorix, we combine technology, expertise and
             transparency to help you achieve your financial goals.
           </p>
 
           <Link
-            href="/pre-register"
-            className="mt-3 inline-flex min-h-10 items-center justify-center gap-2 rounded-lg bg-gradient-to-b from-[#FFE5A0] to-[#F1B84F] px-7 py-2.5 text-sm font-bold text-[#10131A] transition hover:brightness-110"
+            href="/home"
+            className="mt-3 inline-flex min-h-10 items-center justify-center gap-2 rounded-lg bg-gradient-to-b from-[#FFE5A0] to-[#F1B84F] px-7 py-2.5 text-sm font-bold !text-[#10131A] transition hover:brightness-110"
           >
             Get Started
             <ArrowRight size={16} />
@@ -37,7 +37,7 @@ const Future = () => {
         </div>
 
         <Link
-          href="/about-company"
+          href="/home"
           className="group inline-flex w-fit items-center gap-4 rounded-full pr-3 transition hover:bg-white/[0.05]"
           aria-label="Watch our story"
         >
