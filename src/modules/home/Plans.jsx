@@ -80,7 +80,7 @@ const Plans = () => {
 
               <div className="flex items-start gap-4">
                 <div
-                  className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-full border text-3xl text-[#FFD477] ${
+                  className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-full border text-3xl !text-goldenDark ${
                     plan.popular
                       ? "border-[#A67D38]/70 bg-[#F6C45E]/10"
                       : "border-[#A67D38]/50 bg-[#F6C45E]/[0.07]"
@@ -90,7 +90,7 @@ const Plans = () => {
                 </div>
 
                 <div className="min-w-0 pt-0.5">
-                  <p className="text-[9px] font-bold uppercase tracking-[0.22em] text-[#FFD477] sm:text-[10px]">
+                  <p className="text-[9px] font-bold uppercase tracking-[0.22em] !text-goldenDark sm:text-[10px]">
                     {plan.label}
                   </p>
 

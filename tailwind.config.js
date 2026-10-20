@@ -14,6 +14,7 @@ module.exports = {
         purple: "#9f15fb",
         black: "#010103",
         textWhiteLight: "#FFFFFF99",
+        goldenDark: "#FFD477",
       },
     },
   },

@@ -41,7 +41,7 @@ const Future = () => {
           className="group inline-flex w-fit items-center gap-4 rounded-full pr-3 transition hover:bg-white/[0.05]"
           aria-label="Watch our story"
         >
-          <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-[#FFD477] bg-[#071323]/60 text-white shadow-[0_0_25px_rgba(255,204,91,0.12)] transition group-hover:bg-[#F5C45D] group-hover:text-[#07101D]">
+          <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border !border-goldenDark bg-[#071323]/60 text-white shadow-[0_0_25px_rgba(255,204,91,0.12)] transition group-hover:bg-[#F5C45D] group-hover:text-[#07101D]">
             <Play size={22} fill="currentColor" className="ml-1" />
           </span>
 

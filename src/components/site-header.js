@@ -64,12 +64,12 @@ export default function SiteHeader() {
               className="group flex shrink-0 items-center gap-2.5"
               aria-label="Velnorix Home"
             >
-              <span className="text-[27px] font-black leading-none tracking-[-2px] text-[#FFD477] sm:text-3xl">
+              <span className="text-[27px] font-black leading-none tracking-[-2px] !text-goldenDark sm:text-3xl">
                 V<span className="text-white">/</span>
               </span>
 
               <span className="flex flex-col">
-                <span className="text-[19px] font-bold leading-tight tracking-[0.16em] text-[#FFD477] sm:text-[22px]">
+                <span className="text-[19px] font-bold leading-tight tracking-[0.16em] !text-goldenDark sm:text-[22px]">
                   VELNORIX
                 </span>
                 <span className="mt-1 hidden text-[9px] tracking-[0.28em] text-white/65 sm:block">
@@ -89,8 +89,8 @@ export default function SiteHeader() {
                     href={link.href}
                     className={`relative whitespace-nowrap py-3 text-[13px] font-medium transition-colors duration-200 xl:text-sm ${
                       active
-                        ? "text-[#FFD477]"
-                        : "text-white/85 hover:text-[#FFD477]"
+                        ? "!text-goldenDark"
+                        : "text-white/85 hover:!text-goldenDark"
                     }`}
                   >
                     {link.label}
@@ -116,7 +116,7 @@ export default function SiteHeader() {
               <Link
                 href="/notifications"
                 aria-label="Notifications"
-                className="relative flex h-10 w-10 items-center justify-center text-white transition hover:text-[#FFD477]"
+                className="relative flex h-10 w-10 items-center justify-center text-white transition hover:text-goldenDark!"
               >
                 <Bell size={25} strokeWidth={1.8} />
                 <span className="absolute right-0.5 top-0.5 flex h-[17px] min-w-[17px] items-center justify-center rounded-full bg-red-500 px-1 text-[10px] font-bold text-white">
@@ -131,7 +131,7 @@ export default function SiteHeader() {
                 onClick={() => setOpen((value) => !value)}
                 aria-label={open ? "Close menu" : "Open menu"}
                 aria-expanded={open}
-                className="flex h-10 w-10 items-center justify-center rounded-xl text-white transition hover:bg-white/5 hover:text-[#FFD477]"
+                className="flex h-10 w-10 items-center justify-center rounded-xl text-white transition hover:bg-white/5 hover:text-goldenDark!"
               >
                 {open ? <X size={28} /> : <Menu size={30} />}
               </button>
@@ -163,7 +163,7 @@ export default function SiteHeader() {
                     onClick={() => setOpen(false)}
                     className={`flex items-center justify-between rounded-xl px-4 py-3.5 transition ${
                       active
-                        ? "border border-[#87662e]/60 bg-[#FFD477]/[0.08] text-[#FFD477]"
+                        ? "border border-[#87662e]/60 !bg-goldenDark/[0.08] !text-goldenDark"
                         : "border border-transparent text-white/85 hover:bg-white/[0.04]"
                     }`}
                   >
@@ -176,7 +176,7 @@ export default function SiteHeader() {
 
                     <ArrowRight
                       size={16}
-                      className={active ? "text-[#FFD477]" : "text-white/35"}
+                      className={active ? "!text-goldenDark" : "text-white/35"}
                     />
                   </Link>
                 );
@@ -196,7 +196,7 @@ export default function SiteHeader() {
       </header>
 
       {/* Mobile Bottom Navigation */}
-      <nav
+      {/* <nav
         aria-label="Mobile bottom navigation"
         className="fixed inset-x-0 bottom-0 z-[60] border-t border-[#233650] bg-[#020916]/95 px-1 pb-[max(env(safe-area-inset-bottom),8px)] pt-2 backdrop-blur-2xl lg:hidden"
       >
@@ -211,8 +211,8 @@ export default function SiteHeader() {
                 href={link.href}
                 className={`flex min-w-0 flex-col items-center justify-center gap-1 rounded-2xl px-1 py-2 transition-all duration-200 ${
                   active
-                    ? "border border-[#C99B43]/60 bg-gradient-to-b from-[#FFD477]/15 to-transparent text-[#FFD477] shadow-[0_0_22px_rgba(255,194,76,0.09)]"
-                    : "border border-transparent text-white/75 hover:text-[#FFD477]"
+                    ? "border border-[#C99B43]/60 bg-gradient-to-b from-goldenDark/15 to-transparent !text-goldenDark shadow-[0_0_22px_rgba(255,194,76,0.09)]"
+                    : "border border-transparent text-white/75 hover:text-goldenDark!"
                 }`}
               >
                 <Icon
@@ -227,7 +227,7 @@ export default function SiteHeader() {
             );
           })}
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 }
