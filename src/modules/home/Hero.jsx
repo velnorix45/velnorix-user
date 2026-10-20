@@ -48,7 +48,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-end w-full lg:w-1/2">
         
               <Image
-              src="/landing page hero.png"
+              src="/landing page hero.webp"
               alt="Hero Image"
               className='h-auto w-full'
               width={900}

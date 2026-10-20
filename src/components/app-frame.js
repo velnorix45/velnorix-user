@@ -14,7 +14,7 @@ export default function AppFrame({ children }) {
         <main
           className="relative bg-cover min-h-screen bg-center bg-no-repeat px-4 py-5"
           style={{
-            backgroundImage: "url('/background.png')",
+            backgroundImage: "url('/background.webp')",
           }}
         >
           <PageTransition>{children}</PageTransition>
