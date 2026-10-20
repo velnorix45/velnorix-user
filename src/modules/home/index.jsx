@@ -9,13 +9,13 @@ import Future from "./Future";
 
 const index = () => {
   return (
-    <div className="h-screen">
+    <div className="flex flex-col gap-3">
       {/* <Reveal delay={0.04} direction="bottom">
         <HeroSection />
       </Reveal> */}
 
       <Hero/>
-      {/* <Features/> */}
+      <Features/>
       {/* <Plans/> */}
       {/* <Future/> */}
 
