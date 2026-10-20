@@ -105,7 +105,7 @@ export default function SiteHeader() {
 
             {/* Desktop CTA */}
             <div className="hidden shrink-0 lg:block">
-              <ColorButton href="/pre-register">
+              <ColorButton href="/home">
                 <span className="text-sm">Login / Register</span>
                 <ArrowRight size={16} />
               </ColorButton>
@@ -183,7 +183,7 @@ export default function SiteHeader() {
               })}
 
               <Link
-                href="/pre-register"
+                href="/home"
                 onClick={() => setOpen(false)}
                 className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#F2BE58] via-[#FFE4A0] to-[#E8A63D] px-4 py-3.5 text-sm font-bold text-[#10121a]"
               >
